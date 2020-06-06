@@ -25,7 +25,7 @@ function handleTwitter() {
 
 function App() {
   return (
-    <div id="navi">
+    <div className="App">
       <Particles
         params={{
           particles: {
@@ -52,21 +52,20 @@ function App() {
         }}
       >
       </Particles>
-
       <div className="mainflex">
-        <h1 className="centered" style={{top: '-55px', color: '#ffffff' }}>Nick Maleki</h1>
+        <h1 className="centered" style={{ top: '-55px', color: '#ffffff' }}>Nick Maleki</h1>
         <ul id="nav-links">
           <li>
-            <FontAwesomeIcon className="icon" icon={faLinkedin} color="#ffffff" size="2x" onClick={handleLinkedin} />
+            <FontAwesomeIcon className="icon" cursor="grab" icon={faLinkedin} color="#ffffff" size="2x" onClick={handleLinkedin} />
           </li>
           <li>
-            <FontAwesomeIcon className="icon" icon={faGithub} color="#ffffff" size="2x" onClick={handleGithub} />
+            <FontAwesomeIcon className="icon" cursor="grab" icon={faGithub} color="#ffffff" size="2x" onClick={handleGithub} />
           </li>
           <li>
-            <FontAwesomeIcon className="icon" icon={faEnvelope} color="#ffffff" size="2x" onClick={handleMail} />
+            <FontAwesomeIcon className="icon" cursor="grab" icon={faEnvelope} color="#ffffff" size="2x" onClick={handleMail} />
           </li>
           <li>
-            <FontAwesomeIcon className="icon" icon={faTwitter} color="#ffffff" size="2x" onClick={handleTwitter} />
+            <FontAwesomeIcon className="icon" cursor="grab" icon={faTwitter} color="#ffffff" size="2x" onClick={handleTwitter} />
           </li>
         </ul>
       </div>

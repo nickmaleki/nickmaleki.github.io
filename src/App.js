@@ -4,6 +4,7 @@ import Particles from 'react-particles-js';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faTwitter, } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
+import { Helmet } from "react-helmet";
 
 document.title = "Nick Maleki";
 
@@ -25,8 +26,13 @@ function handleTwitter() {
 
 function App() {
   return (
-
     <div className="App">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Nick Maleki</title>
+        <meta name="description" content="Software Engineer" />
+        <link rel="canonical" href="https://nickmaleki.com" />
+      </Helmet>
       <div id="particles">
         <Particles
           params={{
@@ -39,6 +45,9 @@ function App() {
               size: {
                 value: 5
               },
+              line_linked: {
+                distance: 200,
+              }
             },
             background: {
               image: "linear-gradient(135deg, #ffffff -100%, #093f79 50%)"

@@ -7,9 +7,9 @@
   white-space: nowrap;
 }
 
-.mainflex{
+.mainflex {
   display: flex;
-	align-items: center;
+  align-items: center;
   background-color: transparent;
   position: absolute;
   top: 50%;
@@ -32,10 +32,17 @@ ul li {
   white-space: nowrap;
 }
 
-html{
-  margin:0;
-  padding:0;
-  max-height:100vh;
-  max-width:100vw;
-  overflow:hidden;
+html {
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+#particles canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }

@@ -25,33 +25,36 @@ function handleTwitter() {
 
 function App() {
   return (
+
     <div className="App">
-      <Particles
-        params={{
-          particles: {
-            opacity: 1,
-            color: "#ed7e48",
-            number: {
-              value: 100
+      <div id="particles">
+        <Particles
+          params={{
+            particles: {
+              opacity: 1,
+              color: "#ed7e48",
+              number: {
+                value: 100
+              },
+              size: {
+                value: 5
+              },
             },
-            size: {
-              value: 5
+            background: {
+              image: "linear-gradient(135deg, #ffffff -100%, #093f79 50%)"
             },
-          },
-          background: {
-            image: "linear-gradient(135deg, #ffffff -100%, #093f79 50%)"
-          },
-          interactivity: {
-            events: {
-              onhover: {
-                enable: true,
-                mode: "repulse"
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "repulse"
+                }
               }
             }
-          }
-        }}
-      >
-      </Particles>
+          }}
+        >
+        </Particles>
+      </div>
       <div className="mainflex">
         <h1 className="centered" style={{ top: '-55px', color: '#ffffff' }}>Nick Maleki</h1>
         <ul id="nav-links">

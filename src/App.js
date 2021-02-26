@@ -21,6 +21,11 @@ function handleTwitter() {
   window.open("https://twitter.com/malekinick", '_blank');
 }
 
+function handleResume() {
+  window.open("https://nickmaleki.com/resume", '_blank');
+}
+
+
 function App() {
   return (
     <div className="App">
@@ -56,23 +61,27 @@ function App() {
         </Particles>
       </div>
       <div className="mainflex">
-        <h1 className="centered" style={{ top: '-55px', color: '#ffffff' }}>Nick Maleki</h1>
+        <h1 className="centered" style={{ top: '-80px', color: '#ffffff' }}>Nick Maleki</h1>
         <ul id="nav-links">
           <li>
-            <FontAwesomeIcon className="icon" cursor="grab" icon={faLinkedin} color="#ffffff" size="2x" onClick={handleLinkedin} />
+            <img src="LinkedIn.svg" width="40px" onClick={handleLinkedin} />
           </li>
           <li>
-            <FontAwesomeIcon className="icon" cursor="grab" icon={faGithub} color="#ffffff" size="2x" onClick={handleGithub} />
+            <img src="GitHub.svg" width="40px" onClick={handleGithub} />
           </li>
           <li>
-            <FontAwesomeIcon className="icon" cursor="grab" icon={faEnvelope} color="#ffffff" size="2x" onClick={handleMail} />
+            <img src="Mail.svg" width="40px" onClick={handleMail} />
           </li>
           <li>
-            <FontAwesomeIcon className="icon" cursor="grab" icon={faTwitter} color="#ffffff" size="2x" onClick={handleTwitter} />
+            <img src="Twitter.svg" width="40px" onClick={handleTwitter} />
+          </li>
+          <li>
+            <img src="Resume.svg" width="40px" onClick={handleResume} />
           </li>
         </ul>
       </div>
 
+      
     </div>
   );
 }

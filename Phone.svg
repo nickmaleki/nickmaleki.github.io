@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1080"
+   height="1080"
+   viewBox="0 0 285.75001 285.75001"
+   version="1.1"
+   id="svg3993"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="Phone.svg">
+  <defs
+     id="defs3987" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#bababa"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="554.7994"
+     inkscape:cy="36.908935"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="false"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
+     inkscape:window-width="960"
+     inkscape:window-height="1017"
+     inkscape:window-x="944"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4982"
+       transform="matrix(0.07478503,0,0,0.07478503,-259.95384,62.676022)"
+       style="fill:#000000" />
+    <path
+       id="circle3935"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:3.35886"
+       d="M 142.84176,-3.922835e-5 C 63.94704,0.01832509 -1.0974531e-5,63.980318 5.7000002e-5,142.87504 3.4908599e-5,221.78273 63.967366,285.75006 142.87506,285.75004 221.78271,285.75 285.74996,221.78269 285.74994,142.87504 285.75001,63.967363 221.78274,4.9544111e-6 142.87506,-3.922835e-5 h -0.042 z M 117.08767,80.064759 l 24.2179,30.985721 -12.646,9.88589 -24.2179,-30.985721 z m -19.174,14.99104 24.2224,30.985471 c 0,0 0,16.22022 11.0157,30.60495 11.2506,14.38665 27.0488,18.08437 27.0488,18.08437 l 24.20901,30.98571 c 0,0 -37.45541,14.31499 -73.44871,-31.73418 C 74.96957,127.9265 97.91367,95.055799 97.91367,95.055799 Z m 81.45651,64.679561 24.2246,30.98137 -12.6462,9.8858 -24.22001,-30.98572 z"
+       sodipodi:nodetypes="ccscsccccccccccccccccccc" />
+  </g>
+</svg>

@@ -20,6 +20,7 @@
 
 #nav-links {
   margin: auto;
+  align-items: center;
 }
 
 ul {
@@ -28,8 +29,12 @@ ul {
 
 ul li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 5px 20px;
   white-space: nowrap;
+}
+
+img:hover {
+  cursor: pointer;
 }
 
 html {

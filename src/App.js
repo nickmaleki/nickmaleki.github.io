@@ -61,7 +61,7 @@ function App() {
         </Particles>
       </div>
       <div className="mainflex">
-        <h1 className="centered" style={{ top: '-80px', color: '#ffffff' }}>Nick Maleki</h1>
+        <h1 className="centered" style={{ top: '-70px', color: '#ffffff' }}>Nick Maleki</h1>
         <ul id="nav-links">
           <li>
             <img src="LinkedIn.svg" width="40px" onClick={handleLinkedin} />
